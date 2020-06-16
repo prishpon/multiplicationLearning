@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="row">
+        <div class="column">
+            <div class = "form">
+                <div id = "number1" class="number">0</div>
+                <div class="sign">*</div>
+                <div id = "number2" class="number">0</div>
+                <div class="sign" id="sign">=</div>
+                <div class = "mark" id="mark"></div>
+                <input type="text" id = "userAnswer" class="number">
+                <button id ="next" class="navigation">ДАЛІ</button>
+                <button id="check" class="navigation">ПЕРЕВІРИТИ</button>
+                
+                <audio id="happyAudio">
+                        <source src="sounds/Tada-sound.mp3" type="audio/mpeg">
+                      </audio>
+                      <audio id="sadAudio">
+                            <source src="sounds/Sad-trumpet-sound.mp3" type="audio/mpeg">
+                          </audio>
+                          <audio id="oneAudio">
+                                <source src="sounds/One.m4a" type="audio/mpeg">
+                              </audio>
+                              <audio id="twoAudio">
+                                    <source src="sounds/Two.m4a" type="audio/mpeg">
+                                  </audio>
+            </div>
+            <div class="catgirl" id="catgirl">
+    
+                </div>
+        </div>
+          <div class="column">
+                <div class="multButton" id="m2"> * 2</div>
+                <div  class="multButton" id="m3" >* 3</div>
+                <div class="multButton" id="m4"> * 4</div>
+                <div class="multButton" id="m5"> * 5</div>
+            </div>
+
+            <div class="column">
+    
+    <div class="multButton" id="m6"> * 6</div>
+    <div class="multButton" id="m7"> * 7</div>
+    <div class="multButton" id="m8"> * 8</div>
+    <div class="multButton" id="m9"> * 9
+           
+                  </div>
+            </div>
+
+</div> 
+    <script src="js/main.js"></script>
+</body>
+</html>
